@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and credentials
+.env
+*.key
+credentials.json
+service_account.json
+
+# Development tools
+.vscode/
+.idea/
+
+# Generated files
+data/processed/*
+data/rejected/*
+database/*.db
+
+# Keep empty directories
+!data/processed/.gitkeep
+!data/rejected/.gitkeep
